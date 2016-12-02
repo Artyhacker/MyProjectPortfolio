@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="20dp"
+        android:textSize="20sp"
+        android:text="纳米学位应用" />
+    <Button
+        android:id="@+id/main_movie_btn"
+        style="@style/button"
+        android:text="热门电影" />
+    <Button
+        android:id="@+id/main_stock_btn"
+        style="@style/button"
+        android:text="股票雄鹰"/>
+    <Button
+        android:id="@+id/main_reader_btn"
+        style="@style/button"
+        android:text="XYZ阅读器"/>
+    <Button
+        android:id="@+id/main_news_btn"
+        style="@style/button"
+        android:text="最新闻"/>
+    <Button
+        android:id="@+id/main_graduation_btn"
+        style="@style/button"
+        android:text="毕业设计"/>
+</LinearLayout>
