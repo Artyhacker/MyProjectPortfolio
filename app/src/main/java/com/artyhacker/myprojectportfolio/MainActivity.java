@@ -38,6 +38,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
     @Override
     public void onClick(View v) {
+        Button button = (Button)v;
+        String appName = button.getText().toString();
+        Toast.makeText(mContext, "启动应用：" + appName, Toast.LENGTH_SHORT).show();
+        /*
         switch (v.getId()) {
             case R.id.main_movie_btn:
                 Toast.makeText(mContext, "启动应用：热门电影", Toast.LENGTH_SHORT).show();
@@ -54,6 +58,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             case R.id.main_graduation_btn:
                 Toast.makeText(mContext, "启动应用：毕业设计", Toast.LENGTH_SHORT).show();
                 break;
-        }
+        }*/
     }
 }
